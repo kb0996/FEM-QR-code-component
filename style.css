@@ -10,7 +10,7 @@ body {
 
 .qr-box {
     background-color: white;
-    width: 280px;
+    width: 320px;
     padding: 15px;
     border-radius: 20px;
 }
@@ -35,5 +35,7 @@ body {
 
 .qr-text p {
     font-size: 15px;
-    color: hsl(216, 15%, 48%)
+    color: hsl(216, 15%, 48%);
+    margin-left: 20px;
+    margin-right: 20px;
 }
