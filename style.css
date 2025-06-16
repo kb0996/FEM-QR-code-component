@@ -1,0 +1,39 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.qr-box {
+    background-color: white;
+    width: 280px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.qr-image {
+    border-radius: 10px;
+}
+
+.qr-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Outfit;
+    line-height: 1;
+    height: 150px;
+    justify-content: space-evenly;
+}
+
+.qr-text h1 {
+    font-size: 20px;
+}
+
+.qr-text p {
+    font-size: 15px;
+    color: hsl(216, 15%, 48%)
+}
